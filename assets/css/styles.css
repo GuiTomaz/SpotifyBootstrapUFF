@@ -1,0 +1,186 @@
+/******************
+layout************/
+html, body{
+    height: 100%;
+}
+
+body{
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+/***NAVBAR***/
+.nav-link:hover{
+    color:#1ed760;
+}
+.nvcolor{
+    background:#000;
+}
+
+.divisor{
+    width: 1px;
+    background: white;
+    margin: 12px 15px;
+}
+
+.capa{
+    text-align: center;
+}
+/*Carousel**/
+.btn-custom{
+    color: white;
+    border-radius: 500px;
+    -webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    text-transform: uppercase;
+    transition: background 0.4s color 0.4s ;
+    padding: 10px 20px;
+}
+
+.btn-verde{
+    background: #1ed760;
+}
+
+.btn-verde:hover{
+    background: #179744;
+    color: white;
+}
+.btn-branco{
+    color: white;
+    border: 2px solid white;
+}
+.btn-branco:hover{
+    color: black;
+    background: white;
+}
+
+.carousel-control-next, .carousel-control-prev{
+    width: 5%;
+}
+
+/**RECURSOS**/
+.recursos h2, .recursos h3{
+    color: #1ed760;
+}
+
+
+.recursos{
+    background: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.albuns{
+    padding: 10px 0;
+}
+
+
+/*Footer*/
+
+ .rodape{
+    background: black;
+    color: white;
+    position: relative;
+}
+
+.rodape button{
+    border-radius: 50%;
+    color:#222326;
+}
+
+.icn{
+    color:#fff;
+}
+
+.icn:hover{
+    color:#179744
+}
+
+.rodape p{
+    text-transform: uppercase;
+}
+
+
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+    .btn-custom{
+        margin: 10px 15px;
+    }
+   .recursos img{
+        margin-top: 10px;
+    }
+    .albuns{
+        padding: 0;
+    }
+   .recursos h2{
+        margin-top: 20px;
+    }
+    .rodape p{
+        margin-top: 10px;
+    }
+    .rodape img{
+        width: 100px;
+        margin-bottom: 15px;
+    }
+    .btn-lg{
+        width: 225px;
+        font-size: 0.7em;
+        font-weight: 900;
+    }
+ }
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    h1{
+        font-size: 3em;
+    }
+    .btn-custom{
+        margin: 10px 15px;
+    }
+    .recursos img{
+        margin-top: 10px;
+    }
+    .albuns{
+        padding: 0;
+    }
+    .recursos h2{
+        margin-top: 20px;
+    }
+    .rodape p{
+        margin-top: 10px;
+    }
+    .rodape img{
+        width: 100px;
+        margin-bottom: 15px;
+    }
+ }
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    h1{
+        font-size: 4em;
+    }
+    .espaco{
+        margin-right: 30px;
+    }
+ }
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    h1{
+        font-size: 5em;
+    }
+ }
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+    h1{
+        font-size: 6em;
+    }
+ }

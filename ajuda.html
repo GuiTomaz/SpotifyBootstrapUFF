@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link href="assets/css/bootstrap.css" rel="stylesheet" />
+    <link href="assets/css/all.css" rel="stylesheet" />
+    <link href="assets/css/styles.css" rel="stylesheet" />
+    <link href="assets/css/ajuda.css" rel="stylesheet" />
+    <title>Spotify - Tomaz Version</title>
+    <link rel="icon" href="favicon.png" />
+  </head>
+
+  <body class="d-flex flex-column min-vh-100">
+    <!--NAVBAR-->
+    <nav class="navbar nvcolor navbar-expand-md fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="index.html"
+          ><img
+            src="assets/images/spotify.svg"
+            style="width: 90px"
+            alt="Spotify"
+        /></a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#menu"
+          aria-controls="menu"
+          aria-expanded="false"
+          aria-label="Botão de navegação"
+        >
+          <span class="navbar-toggler-icon" ><i class="fas fa-bars" style="color:#fff; font-size:28px;"></i></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="menu">
+          <div class="navbar-nav mr-auto"></div>
+            <ul class="navbar-nav ml-auto font-weight-bold">
+              <li class="nav-item">
+                <a class="nav-link" href="premium.html">Premium</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="ajuda.html">Ajuda</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="404.html">Baixar</a>
+              </li>
+              <li class="nav-item divisor d-none d-md-block"></li>
+              <li class="nav-item">
+                <a class="n nav-link" href="404.html">Inscrever-se</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="login.html">Entrar</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="container" style="margin-top:89px;">
+        <div class="accordion mb-4" id="id-accordion">
+            <div class="card">
+              <div class="card-header" id="id-header-faq1">
+                  <h5 class="mb-0">
+                    <a href="#id-faq1" data-toggle="collapse"
+                        aria-expanded="true" 
+                        aria-controls="id-faq1">
+                        Não consigo redefinir a senha
+                    </a>
+                  </h5>
+              </div>
+              <div id="id-faq1" class="collapse"
+                    data-parent="#id-accordion"
+                    aria-labelledby="id-header-faq1">
+                  <div class="card-body">
+                    <div class="row">
+                        <div class="col-lg-8">
+                          <div class="media">                                           
+                              <div class="media-body">
+                                <h3><strong>Endereço de e-mail antigo?</strong></h3>
+                                <p class="texto-media-body">
+                                    Você precisa ter acesso ao endereço de e-mail cadastrado na sua conta do Spotify para abrir o link de redefinição de senha que nós enviamos.
+                                </p> 
+                                <p>Caso você não tenha acesso, estas são algumas opções:</p>
+                                <p>Recupere o acesso ao endereço de e-mail, se possível.</p>
+                                 <p><a href="#">Crie uma nova conta</a> e comece do zero.</p>
+                              </div>   
+                          </div>   
+                        </div>   
+                    </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="id-header-faq2">
+                  <h5 class="mb-0">
+                    <a href="#id-faq2" data-toggle="collapse"
+                        aria-expanded="true" 
+                        aria-controls="id-faq2">
+                        Tem algo errado com a minha conta
+                    </a>
+                  </h5>
+              </div>
+              <div id="id-faq2" class="collapse"
+                    data-parent="#id-accordion"
+                    aria-labelledby="id-header-faq2">
+                  <div class="card-body">
+                    <p><strong>Observação:</strong> se você teve problemas de login no dia 8 de março, talvez consiga entrar na conta agora com os dados que costuma usar..</p>
+                    <p>Se notar algo estranho, diferente ou corrompido, é possível que você tenha entrado em outra conta do Spotify.</p>
+                    <p>Verifique se estão faltando:</p>
+                    <ul>
+                        <li>Playlists/músicas curtidas</li>
+                        <li>Recursos do Premium</li>
+                        <li>Foto de perfil</li>
+                    </ul>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="id-header-faq3">
+                  <h5 class="mb-0">
+                    <a href="#id-faq3" data-toggle="collapse"
+                        aria-expanded="true" 
+                        aria-controls="id-faq3">
+                        Não lembro minhas informações de login
+                    </a>
+                  </h5>
+              </div>
+              <div id="id-faq3" class="collapse"
+                    data-parent="#id-accordion"
+                    aria-labelledby="id-header-faq3">
+                  <div class="card-body">
+                    
+                    <p>Se você não se lembrar da sua senha, use a página de redefinição de senha.</p>
+                    <p>Se não se lembrar do seu e-mail ou nome de usuário, acesse a página de redefinição de senha e insira os endereços de e-mail <strong>que você pode ter usado</strong> para criar uma conta. Quando o endereço registrado no Spotify for inserido, aparecerá uma mensagem dizendo que o e-mail de redefinição de senha foi enviado.</p>
+                    <p><strong>Observação:</strong> existem várias maneiras de criar uma conta: usando um e-mail, um número de telefone, o Facebook, a Apple ou o Google. Tente fazer login usando essas opções para localizar sua conta.</p>         
+                    <a href="#">Redefinir sua senha</a>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="id-header-faq4">
+                    <h5 class="mb-0">
+                      <a href="#id-faq4" data-toggle="collapse"
+                          aria-expanded="true" 
+                          aria-controls="id-faq4">
+                          Ofertas especiais de premium - Perguntas frequentes
+                      </a>
+                    </h5>
+                </div>
+                <div id="id-faq4" class="collapse"
+                      data-parent="#id-accordion"
+                      aria-labelledby="id-header-faq4">
+                    <div class="card-body">
+                        <p><strong>Que ofertas estão disponíveis?</strong><br>Se você ainda não experimentou o Premium, você pode obter 3 meses de Premium Individual gratuitamente.</p><p>Se você encerrou seu Premium em ou antes de 15 de Março de 2022, você pode adquirir um mês de Premium Individual e os 2 próximos meses serão por nossa conta.</p><p><strong>Como posso obter uma oferta?</strong><br>Para mais informações e para se inscrever, acesse <a href="https://www.spotify.com/us/premium/" class="Link-k8gsk-0 kHJDEv">spotify.com/premium</a></p><p><strong>Quando é valida a oferta?</strong><br>Ambas as ofertas estarão disponíveis de 14 de Abril a 12 de Maio de 2022. Você precisará se inscrever durante esse período para aproveitar a oferta.</p><p><strong>Necessito de um cartão de crédito para me inscrever?</strong><br>Dependendo do mercado, você precisará de um cartão de crédito, débito, ou pagamento por celular. Para verificar os métodos de pagamentos disponíveis onde você está, acesse spotify.com/premium e continue para o check-out.</p><p><strong>Como serei cobrado se eu me inscrever na oferta de 3 meses gratuitos?<br></strong>A oferta durará os primeiros 3 meses a partir do dia em que você se inscrever. Por exemplo, se você se inscreveu em 15 de Abril, você será cobrado pela primeira vez quando o período promocional encerrar em 15 de Julho. Após isso, você será cobrado no dia 15 de cada mês - a menos que cancele.</p>
+                  </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="id-header-faq5">
+                    <h5 class="mb-0">
+                      <a href="#id-faq5" data-toggle="collapse"
+                          aria-expanded="true" 
+                          aria-controls="id-faq5">
+                          Formas de pagamento
+                      </a>
+                    </h5>
+                </div>
+                <div id="id-faq5" class="collapse"
+                      data-parent="#id-accordion"
+                      aria-labelledby="id-header-faq5">
+                    <div class="card-body">
+                        <p>Você pode pagar pelo Spotify Premium de muitas maneiras:</p><ul><li>Cartão de crédito/débito</li><li>Cartões pré-pagos</li><li>PayPal</li><li>Vales-presente</li><li>Pagamento móvel</li><li>Plano pré-pago</li></ul><p><strong>Observação:</strong> os métodos variam de acordo com o país ou região.</p><p>Para ver as formas de pagamento disponíveis no seu país, acesse <a href="http://www.spotify.com/premium" class="Link-k8gsk-0 kHJDEv">www.spotify.com/premium</a> e avance até a página de pagamento. Você não receberá nenhuma cobrança até confirmar os dados de pagamento.</p>
+                     
+                  </div>
+                </div>
+              </div>
+        </div>
+        <div class="container text-center mb-5">
+            <h2>Visite a comunidade</h2>
+            <p>Tem uma pergunta? Encontre respostas na nossa Comunidade de fãs especialistas do mundo todo!</p>
+            <a href="" class="btn btn-lg btn-custom btn-verde" id="help">Encontrar respostas</a>
+        </div>
+    </div>    
+     <!--Footer-->
+     <footer class="rodape mt-auto">
+        <div class="container py-5">
+        <div class="row">
+
+          <div class="col-md-2">
+          <a href="index.html"><img src="assets/images/spotify.svg" class="img-fluid"></a>
+          </div>
+
+          <div class="col-md-2">
+            <p><strong>Empresas</strong></p>
+            <ul class="navbar-nav">
+              <li>
+                <a href="" class="nav-link">Sobre</a>
+              </li>
+              <li>
+                <a href="" class="nav-link">Empregos</a>
+              </li>
+              <li>
+                <a href="" class="nav-link">For the Record</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-md-3">
+            <p><strong>Comunidades</strong></p>
+            <ul class="navbar-nav">
+              <li>
+                <a href="" class="nav-link">Para artistas</a>
+              </li>
+              <li>
+                <a href="" class="nav-link">Desenvolvedores</a>
+              </li>
+              <li>
+                <a href="" class="nav-link">Publicidade</a>
+              </li>
+              <li>
+                <a href="" class="nav-link">Investidores</a>
+              </li>
+              <li>
+                <a href="" class="nav-link">Fornecedores</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-md-2">
+            <p><strong>Links ùteis</strong></p>
+            <ul class="navbar-nav">
+              <li>
+                <a href="" class="nav-link">Suporte</a>
+              </li>
+              <li>
+                <a href="" class="nav-link">Player da Web</a>
+              </li>
+              <li>
+                <a href="" class="nav-link">Aplicativo móvel grátis</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <a href="https://www.facebook.com/SpotifyBrasil/" target="_blank">
+              <button class="btn btn-lg btn-dark">
+                <i class="fab fa-facebook-f icn" ></i>
+              </button>
+            </a>
+            <a href="https://twitter.com/spotify" target="_blank">
+              <button class="btn btn-lg btn-dark ">
+                <i class="fab fa-twitter icn" ></i>
+              </button>
+            </a>
+            <a href="https://www.instagram.com/spotify/" target="_blank">
+              <button class="btn btn-lg btn-dark">
+                <i class="fab fa-instagram icn" ></i>
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+     </footer>
+    <script src="assets/js/jquery-3.3.1.js"></script>
+    <script src="assets/js/popper.js"></script>
+    <script src="assets/js/bootstrap.js"></script>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>

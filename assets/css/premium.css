@@ -1,0 +1,14 @@
+.card-title{
+    font-weight:bold;
+    
+}
+
+.btn-preto{
+    background: #000000e7;
+    
+}
+
+.btn-preto:hover{
+    background: #000000;
+    color:white;
+}

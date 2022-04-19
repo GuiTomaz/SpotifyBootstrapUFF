@@ -1,0 +1,95 @@
+.head{
+    padding: 10px 0 0;
+}
+
+.head img{
+    width: 220px;    
+}
+.head{
+    border-bottom: 1px solid rgb(211, 211, 211);
+    padding: 25px 10px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.btn{
+    padding: 16px 14px 18px;
+}
+
+.btn-facebook{
+    color: white;
+    background-color: #3b5998;
+    animation-name: btn-face;
+}
+.btn-facebook:hover{
+    background-color: #48629b;
+}
+.btn-apple{
+    color: white;
+    background-color: #000000;
+}
+.btn-apple:hover{
+    background-color: #292929;
+}
+.btn-google{
+    color: rgb(133, 133, 133);
+    background-color: #ffffff;
+    border: 3px solid  rgb(109, 109, 109);
+}
+.btn-google:hover{
+    color: white;
+    background-color: rgb(109, 109, 109);
+}
+.btn-telefone{
+    color: rgb(133, 133, 133);
+    background-color: #ffffff;
+    border: 3px solid  rgb(109, 109, 109);
+}
+.btn-telefone:hover{
+    color: white;
+    background-color: rgb(109, 109, 109);
+}
+
+.btn{
+    font-size: 14px;
+    border-radius: 500px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 650;
+}
+.container{
+    text-align: center;
+    width: 520px;
+}
+
+.divider{
+    border-top: 1px solid #d9dadc;
+    display: block;
+    line-height: 1px;
+    margin: 15px 0;
+    position: relative;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.divider .divider-title{
+    background: #fff;
+    font-size: 12px;
+    letter-spacing: 1px;
+    padding: 0 20px;
+    text-transform: uppercase;
+}
+
+.campo{
+    text-align: start;
+    font-weight: 700;
+    color: gray;
+}
+
+.lembrar{
+    text-align: start;
+}
+
+.rodape-texto{
+    font-size: 1.4rem;
+}
